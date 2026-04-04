@@ -1,16 +1,62 @@
-## Hi there 👋
+# Hi 👋, I'm Tushar Ray
 
-<!--
-**OXYGEN1511/OXYGEN1511** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💻 Full Stack Developer
 
-Here are some ideas to get you started:
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?lines=Full+Stack+Developer;React+Developer;FastAPI+Developer;SpringBoot+Developer;API+Engineer&center=true&width=500&height=45">
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 About Me
+- 🔭 Working on **Full Stack Web Applications**
+- 🌱 Improving skills in **ReactJS, FastAPI & Backend Development**
+- 💡 Passionate about building **scalable and high-performance systems**
+- 💬 Ask me about **Frontend, APIs, Databases**
+- ⚡ I enjoy solving **DSA problems and building real-world projects**
+
+---
+
+## 🛠️ Tech Stack
+- 💻 Frontend: ReactJS, HTML, CSS, Tailwind
+- ⚙️ Backend: Spring Boot, FastAPI, REST APIs
+- 🐍 Languages: Python, JavaScript, Java
+- 🗄️ Database: MySQL, PostgreSQL
+- 🔧 Tools: Git, GitHub, Postman
+
+---
+
+## 📌 Featured Projects
+
+### 🔹 Social Media Application
+- Full stack app with authentication and post management  
+- Features: User login, posts, follow system  
+
+### 🔹 Meeting Application 
+- Real-time meeting platform with user interaction features  
+- Includes authentication and session handling  
+
+---
+
+## 📊 GitHub Stats
+![Tushar's GitHub stats](https://github-readme-stats.vercel.app/api?username=OXYGEN1511&show_icons=true)
+
+---
+
+## 🔥 Streak Stats
+![GitHub Streak](https://streak-stats.demolab.com/?user=OXYGEN1511)
+
+---
+
+## 📌 Top Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OXYGEN1511&layout=compact)
+
+---
+
+## 🤝 Connect With Me
+- LinkedIn: https://www.linkedin.com/in/tushar-ray15/
+- Email: tusharray1511email@gmail.com
+
+---
+
+⭐ "Building scalable applications and high-performance APIs"
