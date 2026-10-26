@@ -1,179 +1,132 @@
-
-<!-- ================= PROFILE HEADER ================= -->
-
 <h1 align="center">Hi 👋, I'm Tushar Ray</h1>
 
-<h3 align="center">💻 Full Stack Developer | Java | Spring Boot | React | Python | FastAPI</h3>
+<h3 align="center">Full Stack Developer · Java · Spring Boot · React · .NET Core · Python · FastAPI</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Spring+Boot+%26+React+Developer;Python+%26+FastAPI+Developer;Backend+%26+REST+API+Engineer;Building+Scalable+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Spring+Boot+%26+React;.NET+Core+%26+Dapper;Python+%26+FastAPI;RAG+%26+AI+Integration;Building+scalable%2C+secure+applications" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/TusharRay1512">
-    <img src="https://komarev.com/ghpvc/?username=TusharRay1512&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-blue" alt="Focus" />
-  <img src="https://img.shields.io/badge/Backend-API%20Development-green" alt="Backend" />
+  <a href="https://github.com/TusharRay1512"><img src="https://komarev.com/ghpvc/?username=TusharRay1512&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /></a>
+  <a href="https://www.linkedin.com/in/tushar-ray15/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:tusharray1511email@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 👨‍💻 I'm a Full Stack Developer passionate about building real-world web applications.
-- ⚙️ I work with **Java, Spring Boot, ReactJS, Python, and FastAPI**.
-- 🔌 Interested in designing REST APIs and scalable backend systems.
-- 🗄️ Experienced with relational databases such as MySQL and PostgreSQL.
-- 🧠 I enjoy solving Data Structures and Algorithms problems.
-- 🌱 Continuously learning backend engineering, system design, and AI integration.
-- 🎯 My goal is to build reliable, secure, and high-performance software.
+- 👨‍💻 Full Stack Developer building production web apps with **React** on the front and **Spring Boot**, **.NET Core**, or **FastAPI** on the back
+- 🏢 Currently modernizing an enterprise recruitment system: legacy ASP.NET WebForms → React + .NET Core
+- 🤖 Building AI-integrated systems: RAG pipelines, vector search, streaming LLM responses
+- 🔌 REST API design, JWT auth, role-based access, stored-procedure-backed data layers
+- 🧠 Solving DSA problems on the side
+- 🎯 Goal: reliable, secure, high-performance software
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 💻 Languages
+**Languages**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css" alt="Programming Languages" />
-</p>
+<img src="https://skillicons.dev/icons?i=java,cs,python,js,ts,html,css" alt="Languages" />
 
-### 🎨 Frontend Development
+**Frontend**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,redux" alt="Frontend Technologies" />
-</p>
+<img src="https://skillicons.dev/icons?i=react,redux,tailwind,vite,flutter" alt="Frontend" />
 
-### ⚙️ Backend Development
+**Backend**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs" alt="Backend Technologies" />
-</p>
+<img src="https://skillicons.dev/icons?i=spring,dotnet,fastapi,nodejs" alt="Backend" />
 
-### 🗄️ Databases
+**Databases**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres" alt="Databases" />
-</p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mssql" alt="Databases" />
 
-### 🔧 Tools & Platforms
+**Tools & DevOps**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,docker,linux,vscode" alt="Tools and Platforms" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,postman,vscode" alt="Tools" />
 
 ---
 
 ## 💼 Featured Projects
 
-### 🔹 Mazagon Dock Shipbuilders
+### 🧠 DOCRAG — Enterprise RAG Document Intelligence
+**Java 21 · Spring Boot · Spring AI · PostgreSQL (pgvector) · OpenAI · React 19 · TypeScript · Docker**
 
-**Enterprise Web Application | Backend & Database Development**
+- Multi-turn conversational Q&A over PDF, DOCX and TXT files
+- Ingestion with Apache Tika + `TokenTextSplitter`; chunk metadata carries page numbers, document IDs and user isolation
+- pgvector with HNSW indexing and cosine similarity search
+- Real-time streaming answers via Spring WebFlux (`Flux<String>`) and chat client advisors
+- Citations with file name, page number and similarity score
+- Multi-tenant isolation with Spring Security + stateless JWT
+- Frontend: Tailwind CSS, Zustand, drag-and-drop uploads, markdown/code-rendered streaming chat
 
-- Worked on web application development and modernization.
-- Contributed to API functionality, database integration, and application workflows.
-- Focused on maintainability, reliability, and secure application behavior.
+🔗 [View repository](https://github.com/TusharRay1512)
 
-**Technologies:** Add the exact technologies used in your project.
+### 🏭 Mazagon Dock Shipbuilders — Recruitment Portal Modernization
+**React · .NET Core · Dapper · SQL Server · JWT · Tailwind CSS**
+
+- Migrating a legacy ASP.NET WebForms recruitment system to a React + .NET Core (Dapper) stack
+- Built candidate-facing flows: multi-step application wizards, dashboards, preview pages and call letters
+- Layered backend (repository → service → controller) with stored procedures and bulk inserts
+- Hardened auth: role-based JWT claims, FluentValidation, rate limiting, audit logging, OTP brute-force protection
+- Reusable grid/table component system on a GOI/DBIM-compliant design system with accessibility themes and a bilingual (English/Hindi) UI
+
+### 🎓 VirtualClassroom & Meeting Platform
+**FastAPI · React · JWT · Jitsi Meet API**
+
+- Live video classes via Jitsi Meet API with dynamic room and token generation
+- Student onboarding with batch and subject mapping
+- JWT-based authentication and session handling
+
+### 📱 Fitara AI — Fitness & Health App
+**Flutter · FastAPI** · 🟢 Published on Google Play
+
+- Cross-platform mobile app built and deployed with Flutter
+- AI-powered personalized fitness and health recommendations
+- Focus on performance and smooth UI/UX
 
 ### 🔗 SnipURL — URL Shortener
+**Java · Spring Boot · ReactJS · PostgreSQL · Docker**
 
-**Spring Boot | ReactJS | PostgreSQL**
+- REST APIs for short-link creation, management and redirection
+- PostgreSQL persistence; backend and frontend deployed
 
-- Developed a URL shortening application that converts long URLs into short, shareable links.
-- Implemented REST APIs for URL creation and management.
-- Integrated frontend and backend services.
-- Worked on database persistence and URL redirection.
-- Deployed the backend and worked on frontend deployment.
-
-**Technologies:** Java, Spring Boot, ReactJS, PostgreSQL, Docker
-
-🔗 **Repository:** [View SnipURL on GitHub](https://github.com/TusharRay1512)
+🔗 [View repository](https://github.com/TusharRay1512)
 
 ### 🌐 Social Media Application
+**Spring Boot · ReactJS · Tailwind CSS · SQL**
 
-- Built a full-stack social media application.
-- Implemented user authentication and post management.
-- Added social interaction and follow-system functionality.
-
-**Technologies:** Spring Boot, ReactJS, Tailwind CSS, SQL
-
-### 🎥 Meeting Application
-
-- Worked on a meeting application with user interaction features.
-- Implemented authentication and session-handling functionality.
-
-**Technologies:** Add the exact technologies used in your project.
+- Authentication, post management, and a follow system
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://ghstats.dev/api/card?username=TusharRay1512&theme=tokyonight" alt="GitHub Statistics" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TusharRay1512&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TusharRay1512&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TusharRay1512&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=TusharRay1512&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
-
----
-
-## 🔥 GitHub Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=TusharRay1512&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TusharRay1512&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 </p>
-
----
-
-
-## 📈 Contribution Activity
-
-<p align="center">
-  <a href="https://github.com/TusharRay1512">
-    <img src="https://img.shields.io/badge/View-My%20GitHub%20Contributions-2ea44f?style=for-the-badge&logo=github" alt="View GitHub Contributions" />
-  </a>
-</p>
-
-
----
-
-
-## 🏆 GitHub Projects & Achievements
-
-<p align="center">
-  <a href="https://github.com/TusharRay1512?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore-My%20Repositories-blue?style=for-the-badge&logo=github" alt="Explore My Repositories" />
-  </a>
-</p>
-
 
 ---
 
 ## 🤝 Connect With Me
 
 <p align="left">
-  <a href="https://github.com/TusharRay1512">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/tushar-ray15/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:tusharray1511email@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://github.com/TusharRay1512"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/tushar-ray15/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:tusharray1511email@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
-
----
-
-## 💭 Developer Mindset
 
 <p align="center">
   <i>"Building scalable applications, writing clean code, and solving real-world problems one commit at a time."</i>
-</p>
-
-<p align="center">
-  ⭐ If you find my projects interesting, feel free to explore my repositories and connect with me!
 </p>
