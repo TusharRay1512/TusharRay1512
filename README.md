@@ -128,19 +128,27 @@
 
 ---
 
+
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TusharRay1512&theme=tokyo-night&hide_border=true" alt="GitHub Contribution Activity Graph" />
+  <a href="https://github.com/TusharRay1512">
+    <img src="https://img.shields.io/badge/View-My%20GitHub%20Contributions-2ea44f?style=for-the-badge&logo=github" alt="View GitHub Contributions" />
+  </a>
 </p>
+
 
 ---
 
-## 🏆 GitHub Trophies
+
+## 🏆 GitHub Projects & Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TusharRay1512&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+  <a href="https://github.com/TusharRay1512?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-My%20Repositories-blue?style=for-the-badge&logo=github" alt="Explore My Repositories" />
+  </a>
 </p>
+
 
 ---
 
