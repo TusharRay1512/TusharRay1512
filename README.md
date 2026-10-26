@@ -113,9 +113,9 @@
   <img src="https://streak-stats.demolab.com/?user=TusharRay1512&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TusharRay1512&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
-</p>
+  <p align="center">
+    <img src="https://ghchart.rshah.org/36BCF7/TusharRay1512" alt="Contribution Graph" />
+  </p>
 
 ---
 
